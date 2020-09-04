@@ -3,8 +3,6 @@ import "./App.css";
 import { Switch, Route, NavLink, Redirect } from "react-router-dom";
 import PokemonList from "./containers/PokemonList";
 import Pokemon from "./containers/Pokemon";
-import SearchAppBar from "./containers/SearchAppBar";
-import SearchIcon from "@material-ui/icons/Search";
 
 function App() {
   return (
