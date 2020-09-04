@@ -11,7 +11,8 @@ import SearchAppBar from "./SearchAppBar";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 245,
+    marginTop: 20,
   },
 });
 
@@ -24,7 +25,7 @@ const PokemonList = () => {
         <CardMedia
           component='img'
           alt='Contemplative Reptile'
-          height='140'
+          height='100'
           image='/static/images/cards/contemplative-reptile.jpg'
           title='Contemplative Reptile'
         />
