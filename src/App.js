@@ -8,8 +8,21 @@ function App() {
   return (
     <div className='App'>
       <div className='app'>
-        <nav>
-          <NavLink to={"/pokemon"}>Search</NavLink>
+        <nav className={"header"}>
+          <NavLink to={"/pokemon"}>
+            <img
+              className={"logo"}
+              src='https://fontmeme.com/permalink/200905/0bafe643fec0056907ce5ff26156a3d6.png'
+              alt='pokemonLogo'
+            />
+          </NavLink>
+          <NavLink to={"/pokemon"}>
+            <img
+              className={"logo"}
+              src='https://fontmeme.com/permalink/200905/45e2f1af4c06c7cac1fce58622ecdf4a.png'
+              alt=''
+            />
+          </NavLink>
         </nav>
       </div>
       <Switch>

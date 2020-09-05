@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(79, 82, 82, 0.144);
+  font-family: 'Kaushan Script',
+    cursive;
 }
 
 code {

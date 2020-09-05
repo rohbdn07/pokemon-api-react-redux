@@ -14,7 +14,17 @@ nav {
   align-items: center;
   justify-content: flex-end;
   background: rgb(228, 218, 87);
-  box-shadow: 2px 3px 5px red;
+  box-shadow: 2px 3px 5px rgb(0, 174, 255);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 300px;
 }
 
 nav a {
@@ -41,7 +51,7 @@ nav a {
 }
 
 .list-wrapper .pokemon-item:hover {
-  background-color: black;
+  background-color: rgb(35, 117, 155);
   color: aliceblue;
   transition: 0.8s;
 }
@@ -72,7 +82,9 @@ nav a {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+  padding: 10px;
 }
+
 .pagination {
   display: flex;
   width: 500px;
