@@ -13,9 +13,9 @@ nav {
   height: 60px;
   align-items: center;
   justify-content: flex-end;
-
   background: rgb(228, 218, 87);
   box-shadow: 2px 3px 5px red;
+
 }
 
 nav a {
@@ -29,6 +29,7 @@ nav a {
   margin: auto;
   margin-top: 20px;
 }
+
 .list-wrapper .pokemon-item {
   margin: 10px 0;
   display: flex;
@@ -39,6 +40,7 @@ nav a {
   border-radius: 5px;
   color: black;
 }
+
 .list-wrapper .pokemon-item:hover {
   background-color: black;
   color: aliceblue;

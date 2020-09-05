@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Switch, Route, NavLink, Redirect } from "react-router-dom";
 import PokemonList from "./containers/PokemonList";
-import Pokemon from "./containers/Pokemon";
+import PokemonView from "./containers/PokemonView";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </div>
       <Switch>
         <Route exact path={"/"} component={PokemonList} />
-        <Route exact path={"/Pokemon/:pokemon"} component={Pokemon} />
+        <Route exact path={"/Pokemon/:pokemon"} component={PokemonView} />
         <Redirect to={"/"} />
       </Switch>
     </div>

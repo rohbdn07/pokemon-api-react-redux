@@ -1,10 +1,8 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import _ from "lodash";
-import GetPokemonList from "../actions/PokemonActions";
+import GetPokemonList from "../actions/PokemonListAction";
 import { Link } from "react-router-dom";
 
 const PokemonList = () => {
