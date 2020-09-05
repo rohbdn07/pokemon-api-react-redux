@@ -15,7 +15,6 @@ nav {
   justify-content: flex-end;
   background: rgb(228, 218, 87);
   box-shadow: 2px 3px 5px red;
-
 }
 
 nav a {
@@ -61,12 +60,10 @@ nav a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
 }
 
 .pokemon-wrapper .item {
   width: 30%;
-
 }
 
 .search-wrapper {
@@ -75,5 +72,12 @@ nav a {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-
+}
+.pagination {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  justify-content: space-between;
 }
