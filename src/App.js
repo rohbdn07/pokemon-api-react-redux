@@ -7,7 +7,7 @@ import PokemonView from "./containers/PokemonView";
 function App() {
   return (
     <div className='App'>
-      <div className='app'>
+      <div className='app_header'>
         <nav className={"header"}>
           <NavLink to={"/pokemon"}>
             <img

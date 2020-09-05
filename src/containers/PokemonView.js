@@ -43,6 +43,13 @@ const PokemonView = (props) => {
               return <p>{item.ability.name}</p>;
             })}
           </div>
+
+          <div className='item'>
+            <h1>Types</h1>
+            {pokeData.types.map((item) => {
+              return <p>{item.type.name}</p>;
+            })}
+          </div>
         </div>
       );
     }

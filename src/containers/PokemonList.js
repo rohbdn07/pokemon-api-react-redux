@@ -21,6 +21,7 @@ const PokemonList = (props) => {
 
   const ShowData = () => {
     if (pokemonList.loading) {
+      console.log(pokemonList);
       return <p>loading...</p>;
     }
     if (!_.isEmpty(pokemonList.data)) {

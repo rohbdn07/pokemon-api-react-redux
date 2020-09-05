@@ -15,12 +15,15 @@ nav {
   justify-content: flex-end;
   background: rgba(216, 198, 32, 0.822);
   box-shadow: 2px 3px 5px rgb(0, 174, 255);
+  position: fixed;
+  top: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+
 }
 
 .logo {
@@ -33,10 +36,19 @@ nav a {
   text-decoration: none;
 }
 
+.search-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0 20px 0;
+  padding: 10px;
+}
+
 .list-wrapper {
   width: 90%;
   margin: auto;
-  margin-top: 20px;
+
 }
 
 .list-wrapper .pokemon-item {
@@ -48,6 +60,7 @@ nav a {
   padding: 10px;
   border-radius: 5px;
   color: black;
+
 }
 
 .list-wrapper .pokemon-item:hover {
@@ -63,27 +76,21 @@ nav a {
 
 .poke {
   width: 90%;
-  margin: auto;
+  margin: 100px auto;
 }
 
 .pokemon-wrapper {
   display: flex;
   justify-content: space-between;
   width: 100%;
+
 }
 
 .pokemon-wrapper .item {
   width: 30%;
 }
 
-.search-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-  padding: 10px;
-}
+
 
 .pagination {
   display: flex;
