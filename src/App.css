@@ -51,3 +51,29 @@ nav a {
   color: rgb(199, 38, 38);
   text-decoration: none;
 }
+
+.poke {
+  width: 90%;
+  margin: auto;
+}
+
+.pokemon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.pokemon-wrapper .item {
+  width: 30%;
+
+}
+
+.search-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+
+}

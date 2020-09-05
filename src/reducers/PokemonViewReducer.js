@@ -17,7 +17,10 @@ const PokemonViewReducer = (state = InitialState, action) => {
         ...state,
         loading: false,
         errMessage: "",
-        data: action.payload.results,
+        data: {
+          ...state.data,
+          [action.pokemonName]: action.payload,
+        },
       };
     case "POKEMON_VIEW_ERROR":
       return {

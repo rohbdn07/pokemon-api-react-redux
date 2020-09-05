@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <div className='app'>
         <nav>
-          <NavLink to={"/pokemon/test"}>Search</NavLink>
+          <NavLink to={"/pokemon"}>Search</NavLink>
         </nav>
       </div>
       <Switch>

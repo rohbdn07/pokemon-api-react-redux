@@ -4,7 +4,7 @@ import PokemonViewReducer from "./PokemonViewReducer";
 
 const rootReducer = combineReducers({
   PokemonList: PokemonListReducer,
-  pokemon: PokemonViewReducer,
+  PokemonView: PokemonViewReducer,
 });
 
 export default rootReducer;
