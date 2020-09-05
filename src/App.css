@@ -15,10 +15,37 @@ nav {
   justify-content: flex-end;
 
   background: rgb(228, 218, 87);
-  box-shadow: 10px 10px 10px red;
+  box-shadow: 2px 3px 5px red;
 }
 
 nav a {
   margin-right: 50px;
   color: whitesmoke;
+  text-decoration: none;
+}
+
+.list-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.list-wrapper .pokemon-item {
+  margin: 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 2px solid rgb(223, 183, 52);
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.list-wrapper .pokemon-item:hover {
+  background-color: black;
+  color: aliceblue;
+  transition: 0.8s;
+}
+
+.list-wrapper a {
+  color: rgb(199, 38, 38);
+  text-decoration: none;
 }
