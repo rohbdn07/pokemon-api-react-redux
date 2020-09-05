@@ -13,7 +13,7 @@ nav {
   height: 60px;
   align-items: center;
   justify-content: flex-end;
-  background: rgb(228, 218, 87);
+  background: rgba(216, 198, 32, 0.822);
   box-shadow: 2px 3px 5px rgb(0, 174, 255);
 }
 
